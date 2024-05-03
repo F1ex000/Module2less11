@@ -11,18 +11,16 @@ body{
    "sidebar section_images section_images"
    "footer footer footer"
    ;
-   grid-template-rows: 150px 1fr 150px;
+   grid-template-rows: 150px 500px 150px;
    /* height: 100vh; */
    grid-template-columns: 1fr;   
-   width: 1599px;
-   /* height: 750px;    */
+   width: 1600px;    
 }
 h2{
     font-size: 25px;
     font-weight: 400;
 }
 .header{
-    width: 1599px;
     grid-area: header;
     background: #F7F1D9;
     display: flex;
@@ -38,7 +36,6 @@ h2{
     align-items: center;    
 }
 .footer{
-    width: 1599px;
     grid-area: footer;
     background: #000711;
     display: flex;
@@ -52,9 +49,9 @@ h2{
     display: grid;
     grid-area: section_images;
     grid-template: repeat(2, 190px) / repeat(9, 88px);
-    grid-gap: 20px;
-    margin: 50px 0 50px 107px;         
-    background: #FFFFFF;
+    grid-gap: 20px; 
+    padding: 50px 0 50px 108px;   
+    background: #FFFFFF;        
 }
 
 .image:first-child{
